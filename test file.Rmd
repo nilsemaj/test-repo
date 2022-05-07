@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Git and Github tutorial"
 author: "James Lin"
 date: "5/7/2022"
 output: html_document
@@ -9,11 +9,41 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-https://github.com/nilsemaj/test-repo
+URL of github
 
-commit only gets a snap shot of saved files
+*https://github.com/nilsemaj/test-repo*
 
-push- sends the data files commited to github for cloud storage
+# How to use git and github with R
+
+*https://www.youtube.com/watch?v=QLFc9gw_Hfs*
+
+1. Download Git from *https://git-scm.com/downloads*
+
+2. Create an account with github at *https://github.com/*
+
+3. Create a new repository
+
+4. Copy `repository source URL
+
+5. Click file, new project, version control, Git
+
+6. Paste `repository source URL` into Repository URL input bar
+
+  - save in a proper folder 
+
+7. Can not make edits and work on different files
+
+8. Click save 
+
+9. In Git tab of the Enivornment, History, and Connections upper right panel, select the check boxes 
+
+10. Click commit and write a commit comment
+
+  - commit only gets a snap shot of saved files
+  
+11. Click push to send the saved files to Github
+
+  - push sends the data files commited to github for cloud storage
 
 ```{r}
 
